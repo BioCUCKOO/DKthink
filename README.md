@@ -29,16 +29,6 @@ Content-Type: application/json
 
 ## Input Format
 
-### Minimal Example
-
-```json
-{
-  "question": "What is the target gene regulated by CRE at chr1:108991812-108994364 in the sheep rumen? The sequence is ATCG..."
-}
-```
-
-### General Template
-
 ```json
 {
   "question": "What is the target gene regulated by CRE at chrX:XXX-XXX in the species tissue? The sequence is ATCG..."
@@ -47,7 +37,7 @@ Content-Type: application/json
 
 ---
 
-## Example Request (curl)
+## Example Request
 
 ```bash
 curl -X POST http://47.75.151.53:8080/analyze \
@@ -57,6 +47,11 @@ curl -X POST http://47.75.151.53:8080/analyze \
   }'
 ```
 
+```bash
+curl -X POST http://47.75.151.53:8080/analyze \
+  -H "Content-Type: application/json" \
+  -d /request.json
+```
 ---
 
 ## Example Response

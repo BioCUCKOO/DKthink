@@ -10,7 +10,7 @@ It is designed for regulatory genomics workflows where experimental validation i
 
 Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence**, DKthink:
 
-1. Infers whether the CRE functions as an enhancer  
+1. Infers the CRE functions  
 2. Identifies candidate transcription factors (TFs) binding the CRE  
 3. Predicts the most likely **target gene**  
 4. Assigns **confidence** and **biological importance scores**  
@@ -19,7 +19,7 @@ Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence*
 ---
 
 ## API Endpoint
-
+Using in Windows CMD
 ```
 POST http://47.75.151.53:8080/analyze
 Content-Type: application/json
@@ -63,10 +63,10 @@ curl -X POST http://47.75.151.53:8080/analyze \
     "input": "What is the target gene regulated by CRE at chr1:108991812-108994364 in the sheep rumen?",
     "output": {
       "enhancer": "chr1:108991812-108994364",
-      "TF": "SP1",
+      "TF": "ETS1",
       "target_gene": "IVL",
-      "confidence": 0.75,
-      "importance_score": 0.85,
+      "confidence": 0.85,
+      "importance_score": 0.90,
       "rationale": "Stepwise explainable regulatory inference",
       "output": "The CRE likely functions as a rumen-specific enhancer regulating IVL."
     }

@@ -1,4 +1,4 @@
-# DKthink — CRE → TF → Gene Regulatory Inference API
+# DKthink : CRE → TF → Gene Regulatory Inference API
 
 DKthink is a lightweight, inference-focused REST API for hypothesizing **cis-regulatory element (CRE) → transcription factor (TF) → target gene** relationships in a **species- and tissue-specific context**.
 
@@ -8,7 +8,7 @@ It is designed for regulatory genomics workflows where experimental validation i
 
 ## Core Capability
 
-Given a **CRE genomic coordinate**, **species**, **tissue**, and optionally a **DNA sequence**, DKthink:
+Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence**, DKthink:
 
 1. Infers whether the CRE functions as an enhancer  
 2. Identifies candidate transcription factors (TFs) binding the CRE  
@@ -21,7 +21,7 @@ Given a **CRE genomic coordinate**, **species**, **tissue**, and optionally a **
 ## API Endpoint
 
 ```
-POST http://<server>:8080/analyze
+POST http://47.75.151.53:8080/analyze
 Content-Type: application/json
 ```
 

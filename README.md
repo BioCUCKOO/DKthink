@@ -38,7 +38,7 @@ Content-Type: application/json
 ---
 
 ## Example Request
-CMD input(https://github.com/BioCUCKOO/DKthink/blob/main/images/DK-input.png)
+![CMD input](https://github.com/BioCUCKOO/DKthink/blob/main/images/DK-input.png)
 ```bash
 curl -X POST http://47.75.151.53:8080/analyze \
   -H "Content-Type: application/json" \

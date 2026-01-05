@@ -38,7 +38,7 @@ Content-Type: application/json
 ---
 
 ## Example Request
-images/DK-input.png
+[images/DK-input.png](https://github.com/BioCUCKOO/DKthink/blob/main/images/DK-input.png)
 ```bash
 curl -X POST http://47.75.151.53:8080/analyze \
   -H "Content-Type: application/json" \

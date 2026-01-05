@@ -50,7 +50,7 @@ curl -X POST http://47.75.151.53:8080/analyze \
 ```bash
 curl -X POST http://47.75.151.53:8080/analyze \
   -H "Content-Type: application/json" \
-  -d /request.json
+  -d @D:/request.json
 ```
 ---
 

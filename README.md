@@ -18,17 +18,10 @@ Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence*
 
 ---
 
-## API Endpoint
-Using in Windows CMD
-```
-POST http://47.75.151.53:8080/analyze
-Content-Type: application/json
-```
+## API Usage
 
----
-
-## Input Format
-
+### Step1
+Create a JSON file with the following content:
 ```json
 {
   "question": "What is the target gene regulated by CRE at chrX:XXX-XXX in the species tissue? The sequence is ATCG..."
@@ -36,20 +29,22 @@ Content-Type: application/json
 ```
 
 ---
+### Step2
+Press 'Win + R', and type 'cmd'
 
-## Example Request
-![CMD input](https://github.com/BioCUCKOO/DKthink/blob/main/images/DK-input.png)
 ---
 
-## Example Response
-![output](https://github.com/BioCUCKOO/DKthink/blob/main/images/DK-output.png)
+### Step3
+Type in cmd with the following content(Replace 'D:/request.json' with the actual file path)：
+curl -X POST http://47.75.151.53:8080/analyze -H "Content-Type: application/json" -d @D:/request.json
+
 ---
 
 ## Output Fields
 
 | Field | Description |
 |------|------------|
-| enhancer | CRE genomic coordinate |
+| CRE | CRE genomic coordinate |
 | TF | Predicted regulatory transcription factor |
 | target_gene | Predicted target gene |
 | confidence | Confidence score (0–1) |

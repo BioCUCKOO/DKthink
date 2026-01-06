@@ -23,3 +23,25 @@ wait for about 3 minutes, and a reply will be given.
 
 ---
 
+
+# Output Fields
+
+| Field | Description |
+|------|------------|
+| CRE | CRE genomic coordinate |
+| TF | Predicted regulatory transcription factor |
+| target_gene | Predicted target gene |
+| confidence | Confidence score (0–1) |
+| importance_score | Biological relevance to tissue development |
+| rationale | Explainable multi-step reasoning |
+| output | Human-readable summary |
+
+---
+
+# Notes
+
+- All outputs are **regulatory hypotheses**
+- Scores are **interpretable, not absolute probabilities**
+- Designed to complement experimental validation
+
+---

@@ -36,6 +36,7 @@ Press 'Win + R', and type 'cmd'
 
 ### Step3
 Type in cmd with the following content (Replace 'D:/request.json' with the actual file path):\
+```bash
 curl -X POST http://47.75.151.53:8080/analyze -H "Content-Type: application/json" -d @D:/request.json
 
 ---

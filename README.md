@@ -39,6 +39,7 @@ Type in cmd with the following content (Replace 'D:/request.json' with the actua
 ```bash
 curl -X POST http://47.75.151.53:8080/analyze -H "Content-Type: application/json" -d @D:/request.json
 ```
+Wait for about 3 minutes, and a reply will be given. 
 ---
 
 ## Output Fields

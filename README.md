@@ -12,7 +12,7 @@ Infers the CRE type\
 Identifies candidate transcription factors (TFs) binding the CRE\
 Reasons the most likely **target gene**\
 Assigns confidence of target gene and importance scores of biological function\
-Summarizes a s**tep-by-step rationale** suitable for reports\
+Summarizes a s**tep-by-step rationale** suitable for reports
 
 ---
 

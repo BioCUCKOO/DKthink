@@ -8,10 +8,10 @@ DKthink is an AI thinking system for reasoning **cis-regulatory element (CRE) - 
 
 Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence**, DKthink:
 
-1. Infers the CRE type;\
-2. Identifies candidate transcription factors (TFs) binding the CRE;\
-3. Reasons the most likely **target gene**;\
-4. Assigns confidence of target gene and importance scores of biological function;\
+1. Infers the CRE type;
+2. Identifies candidate transcription factors (TFs) binding the CRE;
+3. Reasons the most likely **target gene**;
+4. Assigns confidence of target gene and importance scores of biological function;
 5. Summarizes a s**tep-by-step rationale** suitable for reports.
 
 ---

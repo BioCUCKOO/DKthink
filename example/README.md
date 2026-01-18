@@ -1,6 +1,6 @@
 # API Usage
 
-##The API is suitable for human, mouse, sheep, monkey. 
+## The API is suitable for human, mouse, sheep, monkey. 
 
 ## Step1
 Create a JSON file with the following content:

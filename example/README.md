@@ -1,5 +1,7 @@
 # API Usage
 
+##The API is suitable for human, mouse, sheep, monkey. 
+
 ## Step1
 Create a JSON file with the following content:
 ```json
@@ -23,7 +25,7 @@ wait for about 3 minutes, and a reply will be given.
 
 ---
 
-## The API is suitable for human, mouse, sheep, monkey. If you want to use it for other species, please refer to the following steps:
+## If you want to use it for other species, please refer to the following steps:
 
 ## Step1
 Upload gff/gff3/gtf file

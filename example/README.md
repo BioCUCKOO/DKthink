@@ -28,7 +28,7 @@ wait for about 3 minutes, and a reply will be given.
 ## Step1
 Upload gff/gff3/gtf file
 ```bash
-curl -X POST http://47.75.151.53:8080/upload/genes -F "file=@D:/deer.gff3" -F "taxid=9500" -F "assembly=deer"
+curl -X POST http://47.75.151.53:8080/upload/genes -F "file=@D:/deer.gtf" -F "taxid=9500" -F "assembly=deer"
 ```
 
 ---

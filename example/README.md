@@ -42,16 +42,16 @@ Add the taxid and assembly you created to the json file:
 
 ---
 ## Step3
-Upload ATAC, H3K27ac value file(Optional), the file can be in bed/csv/tsv format:
+Upload ATAC, H3K27ac value file(Optional), the file can be in bed/csv/tsv/txt format:
 ```bash
-curl -X POST http://47.75.151.53:8080/upload/elements -F "file=@D:/deer.bed" -F "taxid=9500" -F "assembly=deer"
+curl -X POST http://47.75.151.53:8080/upload/elements -F "file=@D:/ATAC.tsv" -F "taxid=9500" -F "assembly=deer"
 ```
 
 ---
 ### Step4
-Upload TAD file(Optional), the file can be in bed/csv/tsv format:
+Upload TAD file(Optional), the file can be in bed/csv/tsv/txt format:
 ```bash
-curl -X POST http://47.75.151.53:8080/upload/tads -F "file=@D:/deer.bed" -F "taxid=9500" -F "assembly=deer"
+curl -X POST http://47.75.151.53:8080/upload/tads -F "file=@D:/TAD.txt" -F "taxid=9500" -F "assembly=deer"
 ```
 
 

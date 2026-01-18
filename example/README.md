@@ -23,6 +23,38 @@ wait for about 3 minutes, and a reply will be given.
 
 ---
 
+# The API is suitable for human, mouse, sheep, monkey. If you want to use it for other species, please refer to the following steps:
+
+## Step1
+Upload gff/gff3/gtf file
+```bash
+curl -X POST http://47.75.151.53:8080/upload/genes -F "file=@D:/deer.gff3" -F "taxid=9500" -F "assembly=deer"
+```
+
+---
+## Step2
+Add the taxid and assembly you created to the json file:
+```json
+{
+  "question": "What is the target gene regulated by CRE at chrX:XXX-XXX in the species tissue(taxid=9500, assembly=deer)? The sequence is ATCG..."
+}
+```
+
+---
+## Step3
+Upload ATAC, H3K27ac value file(Optional), the file can be in bed/csv/tsv format:
+```bash
+curl -X POST http://47.75.151.53:8080/upload/elements -F "file=@D:/deer.bed" -F "taxid=9500" -F "assembly=deer"
+```
+
+---
+### Step4
+Upload TAD file(Optional), the file can be in bed/csv/tsv format:
+```bash
+curl -X POST http://47.75.151.53:8080/upload/tads -F "file=@D:/deer.bed" -F "taxid=9500" -F "assembly=deer"
+```
+
+
 
 # Output Fields
 

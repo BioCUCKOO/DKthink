@@ -1,6 +1,6 @@
-# DKthink : CRE - TF - Gene Regulatory Inference AI thinking system
+# DKthink : CRE - TF - Gene Syntax Inference 
 
-DKthink is an AI thinking system for reasoning **cis-regulatory element (CRE) - transcription factor (TF) - target gene** syntax.  Here, we introduce an API for using DKthink.
+DKthink is used for reasoning **cis-regulatory element (CRE) - transcription factor (TF) - target gene** syntax.  Here, we introduce an API for using DKthink.
 
 ---
 

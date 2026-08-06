@@ -1,12 +1,12 @@
-# DKthink : CRE - TF - Gene Syntax Inference 
+# KingHai : CRE - TF - Gene Syntax Inference 
 
-DKthink is used for reasoning **cis-regulatory element (CRE) - transcription factor (TF) - target gene** syntax.  Here, we introduce an API for using DKthink.
+KingHai is used for reasoning **cis-regulatory element (CRE) - transcription factor (TF) - target gene** syntax.  Here, we introduce an API for using KingHai.
 
 ---
 
 ## Core Capability
 
-Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence**, DKthink:
+Given a **CRE genomic coordinate**, **species**, **tissue**, and **DNA sequence**, KingHai:
 
 1. Infers the CRE type;
 2. Identifies candidate transcription factors (TFs) binding the CRE;
